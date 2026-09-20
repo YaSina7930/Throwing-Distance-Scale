@@ -261,6 +261,15 @@ class ControlWindow(QMainWindow):
         hint.setWordWrap(True)
         hint.setStyleSheet("color: #9aa89a;")
         layout.addWidget(hint)
+
+        roles = QLabel(
+            "右手远投适用角色：蛊，牧羊人，乌鲁鲁，液氮，露娜\n"
+            "左手低抛使用角色：红狼，风衣，旅人\n"
+            "爆为瞬爆"
+        )
+        roles.setWordWrap(True)
+        roles.setStyleSheet("color: #c8dcc8; padding: 8px 0 4px 0;")
+        layout.addWidget(roles)
         layout.addStretch()
 
         self.setStyleSheet(
