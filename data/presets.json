@@ -1,0 +1,80 @@
+{
+  "active_id": "frag_long",
+  "presets": [
+    {
+      "id": "frag_long",
+      "name": "右手远投",
+      "has_fuse": true,
+      "fuse_s": 5.0,
+      "throw_delay_s": 0.2,
+      "can_cook": true,
+      "points": [
+        {"pitch": 0.0, "distance_m": 21.0},
+        {"pitch": 1.0, "distance_m": 28.0},
+        {"pitch": 8.7, "distance_m": 40.0},
+        {"pitch": 14.0, "distance_m": 50.0},
+        {"pitch": 19.0, "distance_m": 60.0},
+        {"pitch": 25.0, "distance_m": 70.0},
+        {"pitch": 32.5, "distance_m": 75.0}
+      ]
+    },
+    {
+      "id": "left_low",
+      "name": "左手低抛",
+      "has_fuse": false,
+      "fuse_s": null,
+      "throw_delay_s": 0.0,
+      "can_cook": false,
+      "points": [
+        {"pitch": 0.0, "distance_m": 9.0},
+        {"pitch": 13.2, "distance_m": 19.0},
+        {"pitch": 20.0, "distance_m": 24.0},
+        {"pitch": 30.0, "distance_m": 30.0}
+      ]
+    },
+    {
+      "id": "weidong_c4",
+      "name": "威龙C4",
+      "has_fuse": false,
+      "fuse_s": null,
+      "throw_delay_s": 0.0,
+      "can_cook": false,
+      "points": [
+        {"pitch": 0.0, "distance_m": 9.0},
+        {"pitch": 8.0, "distance_m": 12.0},
+        {"pitch": 26.0, "distance_m": 18.0},
+        {"pitch": 80.0, "distance_m": 1.0}
+      ]
+    },
+    {
+      "id": "weidong_ult",
+      "name": "威龙大招",
+      "has_fuse": true,
+      "fuse_s": 3.0,
+      "throw_delay_s": 0.0,
+      "can_cook": false,
+      "instant_range_m": 70.0,
+      "points": [
+        {"pitch": 0.0, "distance_m": 20.0},
+        {"pitch": 8.0, "distance_m": 39.0},
+        {"pitch": 11.0, "distance_m": 46.0},
+        {"pitch": 14.0, "distance_m": 54.0}
+      ]
+    },
+    {
+      "id": "honglang_cannon",
+      "name": "红狼手炮",
+      "has_fuse": true,
+      "fuse_s": 3.0,
+      "throw_delay_s": 0.0,
+      "can_cook": false,
+      "instant_range_m": 82.0,
+      "points": [
+        {"pitch": 0.0, "distance_m": 19.0},
+        {"pitch": 10.4, "distance_m": 33.0},
+        {"pitch": 17.8, "distance_m": 71.0},
+        {"pitch": 23.7, "distance_m": 82.0}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[project]
+name = "throwing-distance-scale"
+version = "1.0.0"
+description = "三角洲投掷距离标尺叠层"
+requires-python = ">=3.11"
+dependencies = ["PySide6>=6.7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
