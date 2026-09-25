@@ -9,13 +9,14 @@
       "throw_delay_s": 0.2,
       "can_cook": true,
       "points": [
-        {"pitch": 0.0, "distance_m": 21.0},
-        {"pitch": 1.0, "distance_m": 28.0},
-        {"pitch": 8.7, "distance_m": 40.0},
-        {"pitch": 14.0, "distance_m": 50.0},
-        {"pitch": 19.0, "distance_m": 60.0},
-        {"pitch": 25.0, "distance_m": 70.0},
-        {"pitch": 32.5, "distance_m": 75.0}
+        {"pitch": 0.0, "distance_m": 21.31},
+        {"pitch": 10.0, "distance_m": 42.5},
+        {"pitch": 20.0, "distance_m": 62.8},
+        {"pitch": 30.0, "distance_m": 73.5},
+        {"pitch": 37.38, "distance_m": 74.69},
+        {"pitch": 45.0, "distance_m": 72.6},
+        {"pitch": 60.0, "distance_m": 54.2},
+        {"pitch": 80.0, "distance_m": 12.8}
       ]
     },
     {
